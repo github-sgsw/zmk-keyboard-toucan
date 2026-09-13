@@ -26,7 +26,7 @@
             bindings = <
                  &none &kp SQT       &kp COMMA &kp DOT &kp P &kp Y    &kp F &kp G &kp C &kp R &kp L       &none
                  &none &mt LCTRL A   &kp O     &kp E   &kp U &kp I    &kp D &kp H &kp T &kp N &mt RCTRL S &none
-                 &none &mt LGUI SEMI &kp Q     &kp J   &kp K &kp X    &kp B &kp M &kp W &kp V &mt RGUI Z       &none
+                 &none &mt LGUI SEMI &kp Q     &kp J   &kp K &kp X    &kp B &kp M &kp W &kp V &mt RGUI Z  &none
                                   &kp LALT &lt 1 TAB &mt LSHIFT SPACE    &mt RSHIFT RETURN  &lt 2 ESC &mt RALT RG(SPACE)
             >;
         };
@@ -34,9 +34,9 @@
         nav {
             display-name = "NAV";
             bindings = <
-                &none &kp N7 &kp N8 &kp N9 &kp DEL &kp BSPC    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &none
-                &none &kp N4 &kp N5 &kp N6 &none   &none       &kp PG_UP     &kp HOME     &kp UP       &kp END      &none &none
-                &none &kp N1 &kp N2 &kp N3 &kp N0  &none       &kp PG_DN     &kp LEFT     &kp DOWN     &kp RIGHT    &none &none
+                &none &kp N7       &kp N8 &kp N9 &kp DEL &kp BSPC    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &none     &none
+                &none &mt LCTRL N4 &kp N5 &kp N6 &none   &none       &kp PG_UP  &kp HOME     &kp UP       &kp END       &kp RCTRL &none
+                &none &kp N1       &kp N2 &kp N3 &kp N0  &none       &kp PG_DN  &kp LEFT     &kp DOWN     &kp RIGHT     &none     &none
                                      &none &none &none    &kp RCTRL &none &kp RALT
             >;
         };
@@ -44,9 +44,9 @@
         sym {
             display-name = "SYM";
             bindings = <
-                &none &kp EXCL  &kp AT   &kp POUND &kp DLLR &kp PRCNT    &kp CARET &kp AMPS &kp STAR &kp MINUS &kp UNDER &none
-                &none &kp GRAVE &kp LPAR &kp LBRC  &kp LBKT &kp LT       &kp GT    &kp RBKT &kp RBRC &kp RPAR  &kp EQUAL &none
-                &none &kp TILDE &none    &none     &none    &none        &kp QMARK &kp FSLH &kp PIPE &kp BSLH  &kp PLUS  &none
+                &none &kp EXCL        &kp AT   &kp POUND &kp DLLR &kp PRCNT    &kp CARET &kp AMPS &kp STAR &kp MINUS &kp UNDER       &none
+                &none &mt LCTRL GRAVE &kp LPAR &kp LBRC  &kp LBKT &kp LT       &kp GT    &kp RBKT &kp RBRC &kp RPAR  &mt RCTRL EQUAL &none
+                &none &kp TILDE       &none    &none     &none    &none        &kp QMARK &kp FSLH &kp PIPE &kp BSLH  &kp PLUS        &none
                                                     &kp LCTRL &none &kp LALT    &none &none &none
             >;
         };
