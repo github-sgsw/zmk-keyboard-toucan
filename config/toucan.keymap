@@ -50,7 +50,7 @@
                 &none &kp N7       &kp N8 &kp N9 &kp DEL &kp BSPC    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &none     &none
                 &none &mt LCTRL N4 &kp N5 &kp N6 &none   &none       &kp PG_UP  &kp HOME     &kp UP       &kp END       &kp RCTRL &none
                 &none &mt LGUI N1  &kp N2 &kp N3 &kp N0  &none       &kp PG_DN  &kp LEFT     &kp DOWN     &kp RIGHT     &kp RGUI  &none
-                                     &none &none &none    &kp RCTRL &none &kp RALT
+                                     &none &none &none    &mt RSHIFT RETURN &kp ESC &kp RALT
             >;
         };
 
@@ -60,7 +60,7 @@
                 &none &kp EXCL        &kp AT   &kp POUND &kp DLLR &kp PRCNT    &kp CARET &kp AMPS &kp STAR &kp MINUS &kp UNDER          &none
                 &none &mt LCTRL GRAVE &kp LPAR &kp LBRC  &kp LBKT &kp LT       &kp GT    &kp RBKT &kp RBRC &kp RPAR  &mt RCTRL EQUAL    &none
                 &none &mt LGUI TILDE  &none    &none     &none    &none        &kp QMARK &kp FSLH &kp PIPE &kp BSLH  &mt RGUI PLUS &none
-                                                    &kp LCTRL &none &kp LALT    &none &none &none
+                                                    &kp LALT &kp tab &mt LSHIFT SPACE    &none &none &none
             >;
         };
 
