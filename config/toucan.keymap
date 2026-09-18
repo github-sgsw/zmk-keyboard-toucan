@@ -60,7 +60,7 @@
                 &none &kp EXCL        &kp AT   &kp POUND &kp DLLR &kp PRCNT    &kp CARET &kp AMPS &kp STAR &kp MINUS &kp UNDER          &none
                 &none &mt LCTRL GRAVE &kp LPAR &kp LBRC  &kp LBKT &kp LT       &kp GT    &kp RBKT &kp RBRC &kp RPAR  &mt RCTRL EQUAL    &none
                 &none &mt LGUI TILDE  &none    &none     &none    &none        &kp QMARK &kp FSLH &kp PIPE &kp BSLH  &mt RGUI PLUS &none
-                                                    &kp LALT &kp tab &mt LSHIFT SPACE    &none &none &none
+                                                    &kp LALT &kp TAB &mt LSHIFT SPACE    &none &none &none
             >;
         };
 
